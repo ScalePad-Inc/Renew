@@ -146,7 +146,7 @@ currentUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ { p
 userHomeFolder=$(dscl . -read /users/${currentUser} NFSHomeDirectory | cut -d " " -f 2)
 
 # Path to User deferral file
-userDeferralProfile="$userHomeFolder/Library/Preferences/com.secondsonconsulting.renew.user.plist"
+userDeferralProfile="$userHomeFolder/Library/Preferences/com.scalepad.renew.user.plist"
 
 # Define folder and log file name
 logDir="$userHomeFolder/Library/Application Support/Renew"
@@ -277,8 +277,8 @@ while [ -n "${1}" ]; do
 done
 
 # Path to mobileconfig payload
-managedConfig="/Library/Managed Preferences/com.secondsonconsulting.renew.plist"
-localConfig="/Library/Preferences/com.secondsonconsulting.renew.plist"
+managedConfig="/Library/Managed Preferences/com.scalepad.renew.plist"
+localConfig="/Library/Preferences/com.scalepad.renew.plist"
 
 # Prioritization of Configuration files: Custom (provided at command line), Managed (mdm config profile), Local (plist in /Library/Preferences)
 if [ -n "$customConfig" ]; then

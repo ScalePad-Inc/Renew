@@ -20,7 +20,7 @@ userHomeFolder=$(dscl . -read /users/${currentUser} NFSHomeDirectory | cut -d " 
 
 renewLogFile="${userHomeFolder}/Library/Application Support/Renew/Renew.log"
 
-renewUserDeferrals="${userHomeFolder}/Library/Preferences/com.secondsonconsulting.renew.user.plist"
+renewUserDeferrals="${userHomeFolder}/Library/Preferences/com.scalepad.renew.user.plist"
 
 echo "****************************************************"
 echo "Deferral details for user: $currentUser"

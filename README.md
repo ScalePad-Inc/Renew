@@ -2,7 +2,7 @@
 
 <img src="Example Screenshots/Renew.png" alt="Renew icon" width="500" height="500">
 
-See our [wiki](https://github.com/SecondSonConsulting/Renew/wiki) for installation details and information on how the tool works. 
+See our [wiki](https://github.com/ScalePad-Inc/Renew/wiki) for installation details and information on how the tool works. 
 
 ## Overview
 Renew is a shell script for macOS meant to be run on regular intervals to encourage users to restart their computers on a regular basis. Notifications can become progressively more aggressive if the user chooses to defer their restart beyond the configured threshold.
@@ -22,14 +22,14 @@ Regularly restarting your workstation is an important part of keeping it running
 
 ## Screenshots
 ### Notification Mode Default User Experience
-![Renew Notification Example Image](https://github.com/SecondSonConsulting/Renew/blob/main/Example%20Screenshots/Renew-NotificationDefault.png?raw=true#gh-light-mode-only)
-![Renew Notification Example Image](https://github.com/SecondSonConsulting/Renew/blob/main/Example%20Screenshots/Renew-NotificationDefault_Dark.png?raw=true#gh-dark-mode-only)
+![Renew Notification Example Image](https://github.com/ScalePad-Inc/Renew/blob/main/Example%20Screenshots/Renew-NotificationDefault.png?raw=true#gh-light-mode-only)
+![Renew Notification Example Image](https://github.com/ScalePad-Inc/Renew/blob/main/Example%20Screenshots/Renew-NotificationDefault_Dark.png?raw=true#gh-dark-mode-only)
 ### Normal Mode Default User Experience
-![Renew Normal Example Image](https://github.com/SecondSonConsulting/Renew/blob/main/Example%20Screenshots/Renew-NormalDefaultDialog.png?raw=true#gh-light-mode-only)
-![Renew Normal Example Image](https://github.com/SecondSonConsulting/Renew/blob/main/Example%20Screenshots/Renew-NormalDefaultDialog_Dark.png?raw=true#gh-dark-mode-only)
+![Renew Normal Example Image](https://github.com/ScalePad-Inc/Renew/blob/main/Example%20Screenshots/Renew-NormalDefaultDialog.png?raw=true#gh-light-mode-only)
+![Renew Normal Example Image](https://github.com/ScalePad-Inc/Renew/blob/main/Example%20Screenshots/Renew-NormalDefaultDialog_Dark.png?raw=true#gh-dark-mode-only)
 ### Aggressive Mode Default User Experience
-![Renew Aggressive Example Image](https://github.com/SecondSonConsulting/Renew/blob/main/Example%20Screenshots/Renew-AggressiveDefaultDialog_Dark.png?raw=true#gh-dark-mode-only)
-![Renew Aggressive Example Image](https://github.com/SecondSonConsulting/Renew/blob/main/Example%20Screenshots/Renew-AggressiveDefaultDialog.png?raw=true#gh-light-mode-only)
+![Renew Aggressive Example Image](https://github.com/ScalePad-Inc/Renew/blob/main/Example%20Screenshots/Renew-AggressiveDefaultDialog_Dark.png?raw=true#gh-dark-mode-only)
+![Renew Aggressive Example Image](https://github.com/ScalePad-Inc/Renew/blob/main/Example%20Screenshots/Renew-AggressiveDefaultDialog.png?raw=true#gh-light-mode-only)
 ### Custom Fields Design Example Image
 SwiftDialog allows a high degree of customization, and Renew allows you to continue to easily take advantage of that. This is an example of how you can customize the user experience to suit your branding and taste.
 
@@ -39,8 +39,8 @@ This example uses a banner image tailored to the window size, and the following 
 
 `<string>--width 300 --height 350 --messagefont size=15 --position topright --ontop --messagealignment centre</string>`
 
-![Renew Customized Example Image](https://github.com/SecondSonConsulting/Renew/blob/main/Example%20Screenshots/Renew-CustomizedDialog_Dark.png?raw=true#gh-dark-mode-only)
-![Renew Customized Example Image](https://github.com/SecondSonConsulting/Renew/blob/main/Example%20Screenshots/Renew-CustomizedDialog.png?raw=true#gh-light-mode-only)
+![Renew Customized Example Image](https://github.com/ScalePad-Inc/Renew/blob/main/Example%20Screenshots/Renew-CustomizedDialog_Dark.png?raw=true#gh-dark-mode-only)
+![Renew Customized Example Image](https://github.com/ScalePad-Inc/Renew/blob/main/Example%20Screenshots/Renew-CustomizedDialog.png?raw=true#gh-light-mode-only)
 
 ## Thank you!
 This project is made possible by the awesome folks on the MacAdmins slack for their support and community projects.

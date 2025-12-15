@@ -8,9 +8,9 @@
 			<key>PayloadDisplayName</key>
 			<string>renew</string>
 			<key>PayloadIdentifier</key>
-			<string>com.secondsonconsulting.renew.5A990D16-50BF-4F03-91DD-CD435C86DF1E</string>
+			<string>com.scalepad.renew.5A990D16-50BF-4F03-91DD-CD435C86DF1E</string>
 			<key>PayloadType</key>
-			<string>com.secondsonconsulting.renew</string>
+			<string>com.scalepad.renew</string>
 			<key>PayloadUUID</key>
 			<string>5A990D16-50BF-4F03-91DD-CD435C86DF1E</string>
 			<key>PayloadVersion</key>
